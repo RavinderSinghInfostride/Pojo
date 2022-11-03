@@ -2,6 +2,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -16,11 +17,10 @@ public class Test {
         JsonArray jsonArrayOfCars = fileObject.get("cars").getAsJsonArray();
         List<Cars> cars = new ArrayList();
         for (JsonElement carsElement : jsonArrayOfCars.getAsJsonArray()) {
-            //Get the JsonObject:
             JsonObject carJsonObject = carsElement.getAsJsonObject();
             Cars carData = new Cars(carJsonObject.get("car").toString(), carJsonObject.get("colour").toString());
             cars.add(carData);
         }
-            System.out.println("All my cars are:- " + cars);
+        System.out.println("All my cars are:- " + cars);
     }
 }
