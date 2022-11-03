@@ -1,84 +1,104 @@
 {
   "cars": [
     {
-      "car": "Plymouth",
-      "colour": "Khaki"
+      "car": "Volkswagen",
+      "colour": "Teal",
+      "model": 2009
     },
     {
-      "car": "Buick",
-      "colour": "Orange"
+      "car": "Chrysler",
+      "colour": "Yellow",
+      "model": 1995
+    },
+    {
+      "car": "Land Rover",
+      "colour": "Violet",
+      "model": 1996
     },
     {
       "car": "Nissan",
-      "colour": "Yellow"
-    },
-    {
-      "car": "Honda",
-      "colour": "Crimson"
+      "colour": "Violet",
+      "model": 1993
     },
     {
       "car": "Chevrolet",
-      "colour": "Orange"
+      "colour": "Purple",
+      "model": 1963
     },
     {
-      "car": "Buick",
-      "colour": "Aquamarine"
-    },
-    {
-      "car": "Buick",
-      "colour": "Indigo"
-    },
-    {
-      "car": "Mercedes-Benz",
-      "colour": "Crimson"
-    },
-    {
-      "car": "Acura",
-      "colour": "Orange"
-    },
-    {
-      "car": "Chrysler",
-      "colour": "Red"
+      "car": "Volvo",
+      "colour": "Goldenrod",
+      "model": 2003
     },
     {
       "car": "GMC",
-      "colour": "Aquamarine"
+      "colour": "Teal",
+      "model": 2010
     },
     {
-      "car": "Mercedes-Benz",
-      "colour": "Teal"
+      "car": "BMW",
+      "colour": "Violet",
+      "model": 2002
+    },
+    {
+      "car": "Jeep",
+      "colour": "Fuscia",
+      "model": 2005
+    },
+    {
+      "car": "GMC",
+      "colour": "Khaki",
+      "model": 1997
+    },
+    {
+      "car": "Toyota",
+      "colour": "Red",
+      "model": 2007
     },
     {
       "car": "Infiniti",
-      "colour": "Khaki"
+      "colour": "Khaki",
+      "model": 1997
     },
     {
-      "car": "Kia",
-      "colour": "Pink"
+      "car": "Suzuki",
+      "colour": "Red",
+      "model": 2006
     },
     {
-      "car": "Porsche",
-      "colour": "Maroon"
+      "car": "Lexus",
+      "colour": "Red",
+      "model": 1993
     },
     {
       "car": "GMC",
-      "colour": "Goldenrod"
+      "colour": "Fuscia",
+      "model": 2010
     },
     {
-      "car": "Dodge",
-      "colour": "Pink"
+      "car": "GMC",
+      "colour": "Mauv",
+      "model": 2008
     },
     {
-      "car": "Chrysler",
-      "colour": "Green"
+      "car": "Kia",
+      "colour": "Fuscia",
+      "model": 2000
     },
     {
-      "car": "Mitsubishi",
-      "colour": "Turquoise"
+      "car": "Toyota",
+      "colour": "Orange",
+      "model": 2008
     },
     {
-      "car": "Porsche",
-      "colour": "Khaki"
+      "car": "Lexus",
+      "colour": "Green",
+      "model": 2003
+    },
+    {
+      "car": "Chevrolet",
+      "colour": "Fuscia",
+      "model": 1998
     }
   ]
 }

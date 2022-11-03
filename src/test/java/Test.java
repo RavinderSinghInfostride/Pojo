@@ -18,7 +18,7 @@ public class Test {
         List<Cars> cars = new ArrayList();
         for (JsonElement carsElement : jsonArrayOfCars.getAsJsonArray()) {
             JsonObject carJsonObject = carsElement.getAsJsonObject();
-            Cars carData = new Cars(carJsonObject.get("car").toString(), carJsonObject.get("colour").toString());
+            Cars carData = new Cars(carJsonObject.get("car").toString(), carJsonObject.get("colour").toString(), carJsonObject.get("model").toString());
             cars.add(carData);
         }
         System.out.println("All my cars are:- " + cars);
